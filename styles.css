@@ -279,3 +279,16 @@ h1, h2, h3 {
   font-size: 0.95rem;
   line-height: 1.5;
 }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-grid div {
+  padding: 1rem;
+  border: 1px solid #e0e4ea;
+  border-radius: 0.5rem;
+}
