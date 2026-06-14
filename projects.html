@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Projects — Yixiang Fang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <meta name="description" content="Past projects by Yixiang (Eric) Fang." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">YF</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <h1 class="visually-hidden">Projects</h1>
+    <section id="projects" class="section">
+      <h2>Past projects</h2>
+      <div class="projects-grid">
+        <article class="card">
+          <img src="images/DoseiconV2.png" alt="Dose Pillbox" class="card-media icon-img">
+          <div class="card-body">
+            <h3><a href="https://project-a5-f5b82.web.app/mypillbox" target="_blank" rel="noopener noreferrer">Dose</a></h3>
+            <p>A React-based app designed to help users clearly organize and manage their daily medications.</p>
+            <p>
+              <button class="toggle-details"
+                      type="button"
+                      aria-expanded="false"
+                      aria-controls="dose-details">See more details</button>
+            </p>
+            <div id="dose-details" class="project-details" hidden>
+              <ul>
+                <li>Built with React.js using reusable components and client-side routing.</li>
+                <li>Designed responsive layouts optimized for both desktop and mobile devices.</li>
+                <li>Implemented workflows for adding prescriptions and organizing daily dosage schedules.</li>
+                <li>Collaborated through GitHub with documented pull requests and consistent code patterns.</li>
+              </ul>
+            </div>
+            <p><a class="button ghost" href="https://github.com/info340-su23/project-GConscious" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/WorldPopulationIconV2.png" alt="Research of World Population" class="card-media icon-img">
+          <div class="card-body">
+            <h3><a href="https://rkayelew.shinyapps.io/BG2final/" target="_blank" rel="noopener noreferrer">World Population</a></h3>
+            <p>An interactive dashboard that visualizes twenty years of global demographic and population trends.</p>
+            <p>
+              <button class="toggle-details"
+                      type="button"
+                      aria-expanded="false"
+                      aria-controls="worldpop-details">See more details</button>
+            </p>
+
+            <div id="worldpop-details" class="project-details" hidden>
+              <ul>
+                <li>Analyzed two decades of demographic and socioeconomic indicators across countries.</li>
+                <li>Developed a full R Shiny dashboard with dynamic charts and user-driven filtering.</li>
+                <li>Cleaned and transformed multiple datasets to support interactive visual exploration.</li>
+                <li>Structured the visualization flow to improve interpretability of global population trends.</li>
+              </ul>
+            </div>
+            <p><a class="button ghost" href="https://github.com/kevtat/BG2" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/sentiment_analysis.png" alt="Sentiment Analysis of COVID-19 Tweets" class="card-media icon-img">
+          <div class="card-body">
+            <h3>Sentiment Analysis</h3>
+            <p>A large-scale analysis exploring emotional patterns in COVID-19 tweets across time and regions.</p>
+            <p>
+              <button class="toggle-details"
+                      type="button"
+                      aria-expanded="false"
+                      aria-controls="covid-details">See more details</button>
+            </p>
+
+            <div id="covid-details" class="project-details" hidden>
+              <ul>
+                <li>Processed over 100 million COVID-19–related tweets to extract emotional signals.</li>
+                <li>Created geospatial and emoji-based visualizations to reveal regional differences.</li>
+                <li>Built LSTM models for emotion classification and analyzed temporal lag effects.</li>
+                <li>Used OLS regression to measure how major events influenced public emotional response.</li>
+              </ul>
+            </div>
+            <p><a class="button ghost" href="https://docs.google.com/presentation/d/1UVyp5wqw_tFm9X6aQcLK1PEp1egBZ-Spp0GkcVEqFWM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Presentation</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2025 Yixiang Fang</small>
+  </footer>
+</body>
+</html>
