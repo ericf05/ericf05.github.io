@@ -29,26 +29,70 @@
     <section id="projects" class="section">
       <h2>Past projects</h2>
       <div class="projects-grid">
+        
         <article class="card">
-          <img src="images/DoseiconV2.png" alt="Dose Pillbox" class="card-media icon-img">
+          <img src="images/health_equity_dashboard.png"
+              alt="U.S. Health Equity Dashboard"
+              class="card-media icon-img">
+
           <div class="card-body">
-            <h3><a href="https://project-a5-f5b82.web.app/mypillbox" target="_blank" rel="noopener noreferrer">Dose</a></h3>
-            <p>A React-based app designed to help users clearly organize and manage their daily medications.</p>
+            <h3>
+              <a href="https://public.tableau.com/shared/7HCTTFGG7?:display_count=n&:origin=viz_share_link"
+                target="_blank"
+                rel="noopener noreferrer">
+                U.S. Health Equity Dashboard
+              </a>
+            </h3>
+            <p>An interactive Tableau dashboard exploring healthcare access, income, and life expectancy across counties in the United States.</p>
             <p>
               <button class="toggle-details"
                       type="button"
                       aria-expanded="false"
-                      aria-controls="dose-details">See more details</button>
+                      aria-controls="health-details">
+                See more details
+              </button>
             </p>
-            <div id="dose-details" class="project-details" hidden>
+
+            <div id="health-details" class="project-details" hidden>
               <ul>
-                <li>Built with React.js using reusable components and client-side routing.</li>
-                <li>Designed responsive layouts optimized for both desktop and mobile devices.</li>
-                <li>Implemented workflows for adding prescriptions and organizing daily dosage schedules.</li>
-                <li>Collaborated through GitHub with documented pull requests and consistent code patterns.</li>
+                <li>Built an interactive Tableau Story using county-level health and demographic datasets.</li>
+                <li>Created geospatial maps, scatter plots, heatmaps, and trend analyses to visualize regional health disparities.</li>
+                <li>Analyzed relationships between uninsured rates, physician access, income, and life expectancy.</li>
+                <li>Applied Tableau Level of Detail (LOD) calculations to analyze county-level health disparities and identify a nearly 20-year gap in life expectancy across U.S. counties.</li>
               </ul>
             </div>
-            <p><a class="button ghost" href="https://github.com/info340-su23/project-GConscious" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+            <p>
+              <a class="button ghost"
+                href="https://docs.google.com/document/d/1__j4rjsGh-60YT24941XPDryff2okfGEUjKGx485oIE/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer">
+                View Report
+              </a>
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/sentiment_analysis.png" alt="Sentiment Analysis of COVID-19 Tweets" class="card-media icon-img">
+          <div class="card-body">
+            <h3>Sentiment Analysis</h3>
+            <p>A large-scale analysis exploring emotional patterns in COVID-19 tweets across time and regions.</p>
+            <p>
+              <button class="toggle-details"
+                      type="button"
+                      aria-expanded="false"
+                      aria-controls="covid-details">See more details</button>
+            </p>
+
+            <div id="covid-details" class="project-details" hidden>
+              <ul>
+                <li>Processed over 20 million COVID-19–related tweets to extract emotional signals.</li>
+                <li>Created geospatial and emoji-based visualizations to reveal regional differences.</li>
+                <li>Built LSTM models for emotion classification and analyzed temporal lag effects.</li>
+                <li>Used OLS regression to measure how major events influenced public emotional response.</li>
+              </ul>
+            </div>
+            <p><a class="button ghost" href="https://docs.google.com/presentation/d/1UVyp5wqw_tFm9X6aQcLK1PEp1egBZ-Spp0GkcVEqFWM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Presentation</a></p>
           </div>
         </article>
 
@@ -77,28 +121,28 @@
         </article>
 
         <article class="card">
-          <img src="images/sentiment_analysis.png" alt="Sentiment Analysis of COVID-19 Tweets" class="card-media icon-img">
+          <img src="images/DoseiconV2.png" alt="Dose Pillbox" class="card-media icon-img">
           <div class="card-body">
-            <h3>Sentiment Analysis</h3>
-            <p>A large-scale analysis exploring emotional patterns in COVID-19 tweets across time and regions.</p>
+            <h3><a href="https://project-a5-f5b82.web.app/mypillbox" target="_blank" rel="noopener noreferrer">Dose</a></h3>
+            <p>A React-based app designed to help users clearly organize and manage their daily medications.</p>
             <p>
               <button class="toggle-details"
                       type="button"
                       aria-expanded="false"
-                      aria-controls="covid-details">See more details</button>
+                      aria-controls="dose-details">See more details</button>
             </p>
-
-            <div id="covid-details" class="project-details" hidden>
+            <div id="dose-details" class="project-details" hidden>
               <ul>
-                <li>Processed over 100 million COVID-19–related tweets to extract emotional signals.</li>
-                <li>Created geospatial and emoji-based visualizations to reveal regional differences.</li>
-                <li>Built LSTM models for emotion classification and analyzed temporal lag effects.</li>
-                <li>Used OLS regression to measure how major events influenced public emotional response.</li>
+                <li>Built with React.js using reusable components and client-side routing.</li>
+                <li>Designed responsive layouts optimized for both desktop and mobile devices.</li>
+                <li>Implemented workflows for adding prescriptions and organizing daily dosage schedules.</li>
+                <li>Collaborated through GitHub with documented pull requests and consistent code patterns.</li>
               </ul>
             </div>
-            <p><a class="button ghost" href="https://docs.google.com/presentation/d/1UVyp5wqw_tFm9X6aQcLK1PEp1egBZ-Spp0GkcVEqFWM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Presentation</a></p>
+            <p><a class="button ghost" href="https://github.com/info340-su23/project-GConscious" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
           </div>
         </article>
+
       </div>
     </section>
   </main>
