@@ -292,10 +292,3 @@ h1, h2, h3 {
   border: 1px solid #e0e4ea;
   border-radius: 0.5rem;
 }
-
-.subtitle {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: #dbe9ff;
-}
