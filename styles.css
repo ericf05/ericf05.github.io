@@ -318,3 +318,142 @@ h1, h2, h3 {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,.08);
 }
+/* =========================
+   Ask Eric Chatbot
+   ========================= */
+
+#chat-toggle {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+
+  border: none;
+  border-radius: 999px;
+  padding: 14px 20px;
+
+  background: #222;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+#chat-toggle:hover {
+  transform: translateY(-2px);
+}
+
+#chat-window {
+  display: none;
+
+  position: fixed;
+  right: 24px;
+  bottom: 85px;
+
+  width: 360px;
+  height: 480px;
+
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+
+  overflow: hidden;
+  z-index: 1000;
+}
+
+#chat-header {
+  height: 55px;
+  padding: 0 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #222;
+  color: white;
+
+  font-weight: 600;
+}
+
+#chat-close {
+  background: none;
+  border: none;
+  color: white;
+
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#chat-messages {
+  height: 340px;
+  padding: 16px;
+
+  overflow-y: auto;
+}
+
+.bot-message {
+  background: #f2f2f2;
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  margin-bottom: 12px;
+}
+
+.user-message {
+  background: #222;
+  color: white;
+
+  padding: 10px 12px;
+  border-radius: 12px;
+
+  margin-bottom: 12px;
+  margin-left: 40px;
+}
+
+#chat-input-area {
+  display: flex;
+  gap: 8px;
+
+  padding: 12px;
+  border-top: 1px solid #ddd;
+}
+
+#chat-input {
+  flex: 1;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  outline: none;
+}
+
+#chat-send {
+  border: none;
+  border-radius: 8px;
+
+  padding: 10px 14px;
+
+  background: #222;
+  color: white;
+
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  #chat-window {
+    right: 10px;
+    bottom: 75px;
+    width: calc(100% - 20px);
+  }
+
+  #chat-toggle {
+    right: 16px;
+    bottom: 16px;
+  }
+}
